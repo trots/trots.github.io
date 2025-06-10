@@ -1,5 +1,7 @@
-theme: jekyll-theme-minimal
 title: Alexander Trotsenko
 description: Description!
 baseurl: ""
 url: "https://trots.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
