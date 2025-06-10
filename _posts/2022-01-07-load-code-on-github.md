@@ -3,7 +3,7 @@
 layout: post
 title: "Как загрузить код проекта на GitHub"
 date: 2022-01-07 16:36:53 -0000
-categories: git GitHub
+tags: github, git
 
 ---
 
