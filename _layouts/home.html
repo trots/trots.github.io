@@ -30,9 +30,9 @@ layout: archive
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
         
-        {% if post.excerpt %}
+        {% if post.tagline %}
           <p class="archive__item-excerpt" style="margin: 0;">
-            {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+            {{ post.tagline | markdownify | strip_html | truncate: 160 }}
           </p>
         {% endif %}
         
