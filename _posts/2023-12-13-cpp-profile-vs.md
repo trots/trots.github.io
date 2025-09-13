@@ -6,7 +6,7 @@ date: 2023-12-13 14:08:43 -0000
 tags: optimization, cpp, visual-studio, profiling
 header:
     overlay_image: /assets/images/cpp-profile-vs/f3873461-27d2-4e11-adf4-d439eaba8d2c.png
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

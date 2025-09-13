@@ -6,7 +6,7 @@ date: 2024-01-12 08:09:56 -0000
 tags: cpp, memory-leak, qt-creator, drmemory
 header:
     overlay_image: assets\images\dr-memory-run\teaser.png
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

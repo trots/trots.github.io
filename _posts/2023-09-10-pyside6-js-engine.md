@@ -6,7 +6,7 @@ date: 2023-09-10 06:44:05 -0000
 tags: javascript, python, pyside6, qt
 header:
     overlay_image: assets\images\pyside6-js-engine\teaser.png
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

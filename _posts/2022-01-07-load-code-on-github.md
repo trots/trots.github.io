@@ -5,7 +5,7 @@ date: 2022-01-07 16:36:53 -0000
 tags: github, git
 header:
   overlay_image: /assets/images/load-code-on-github/8xDUNxLvQ.png
-  overlay_filter: rgba(100, 100, 100, 0.5)
+  overlay_filter: rgba(0, 0, 0, 0.8)
 tagline: "Рассмотрим несколько способов загрузки исходного кода проекта на GitHub"
 
 ---

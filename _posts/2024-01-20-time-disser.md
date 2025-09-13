@@ -5,7 +5,7 @@ date: 2024-01-20 05:45:00 -0000
 tags: time-management, phd
 header:
     overlay_image: assets\images\time-disser\teaser.png
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

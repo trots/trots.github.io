@@ -6,7 +6,7 @@ date: 2023-03-30 10:20:35 -0000
 tags: algorithms, 3d, 3d-model, splitting, polygon, geometry, triangulation
 header:
     overlay_image: assets\images\3d-plane-split\teaser.png
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

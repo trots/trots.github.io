@@ -8,7 +8,7 @@ categories:
   - Книжная полка
 header:
     overlay_image: assets\images\jurassic-park-complexity\teaser.jpeg
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
     caption: "Photo by [Christopher Stark](https://unsplash.com/@christopherstark?utm_source=Hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com)"
 
 ---

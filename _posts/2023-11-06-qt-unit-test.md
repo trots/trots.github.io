@@ -6,7 +6,7 @@ date: 2023-11-06 12:44:54 -0000
 tags: unit-testing, qt, qt-creator, qttest
 header:
     overlay_image: assets\images\qt-unit-test\teaser.png
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

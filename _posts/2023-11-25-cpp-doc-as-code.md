@@ -5,7 +5,7 @@ date: 2023-11-25 10:20:35 -0000
 tags: markdown, documentation, doxygen, documentation-best-practices, documentation-tool, doc-as-code
 header:
     overlay_image: assets\images\cpp-doc-as-code\teaser.jpeg
-    overlay_filter: rgba(100, 100, 100, 0.5)
+    overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 
