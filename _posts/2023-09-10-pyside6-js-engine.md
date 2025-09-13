@@ -3,7 +3,13 @@
 title: "Как определить собственные JS-функции при работе с QJSEngine от PySide6"
 tagline: "В инструкции рассмотрим как определять пользовательские JavaScript-функции для QJSEngine от PySide6 в программах на Python"
 date: 2023-09-10 06:44:05 -0000
-tags: javascript, python, pyside6, qt
+tags: 
+    - javascript
+    - python
+    - pyside
+    - qt
+categories:
+    - Qt
 header:
     overlay_image: assets\images\pyside6-js-engine\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

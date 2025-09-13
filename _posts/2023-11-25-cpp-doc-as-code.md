@@ -2,10 +2,15 @@
 title: "Способ организации документации проекта C++ в стиле Doc As Code"
 tagline: "Doc As Code в связке с Doxygen / Markdown - это отличный способ организовать документацию проекта на С++"
 date: 2023-11-25 10:20:35 -0000
-tags: markdown, documentation, doxygen, documentation-best-practices, documentation-tool, doc-as-code
+tags: 
+  - markdown
+  - documentation
+  - doxygen
+  - cpp
+  - vscode
 header:
-    overlay_image: assets\images\cpp-doc-as-code\teaser.jpeg
-    overlay_filter: rgba(0, 0, 0, 0.8)
+  overlay_image: assets\images\cpp-doc-as-code\teaser.jpeg
+  overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

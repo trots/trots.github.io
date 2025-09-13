@@ -3,7 +3,14 @@
 title: "Как работать с пул-реквестами в личном репозитории GitHub"
 tagline: "Учимся работать с пул-реквестами на GitHub в личных репозиториях"
 date: 2024-11-25 19:53:41 -0000
-tags: github, vcs, git, pull-request, qt-creator
+tags: 
+    - github
+    - vcs
+    - git
+    - pull-request
+    - qt-creator
+categories:
+    - Начинающим
 header:
     overlay_image: assets\images\github-pull-request\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

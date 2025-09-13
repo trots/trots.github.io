@@ -3,7 +3,13 @@
 title: "Как расширить FreeCAD для импорта нового формата данных"
 tagline: "Создаем простейший плагин для импорта пользовательских данных в FreeCAD"
 date: 2023-09-09 11:35:02 -0000
-tags: 3d, cad, freecad
+tags: 
+    - 3d
+    - cad
+    - freecad
+    - python
+categories:
+    - САПР
 header:
     overlay_image: assets\images\freecad-import-extension\fe848840-89a9-4b19-b815-0cf986370380.png
     overlay_filter: rgba(0, 0, 0, 0.8)

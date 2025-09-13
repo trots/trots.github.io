@@ -2,7 +2,12 @@
 
 title: "Как загрузить код проекта на GitHub"
 date: 2022-01-07 16:36:53 -0000
-tags: github, git
+tags: 
+  - github
+  - git
+  - vcs
+categories:
+  - Начинающим
 header:
   overlay_image: /assets/images/load-code-on-github/8xDUNxLvQ.png
   overlay_filter: rgba(0, 0, 0, 0.8)

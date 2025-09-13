@@ -3,7 +3,11 @@
 title: "Как разбить проект CMake на подпроекты"
 tagline: "Разделяем на подпроекты существующий проект C++ на CMake"
 date: 2025-04-22 06:00:44 -0000
-tags: cpp, cmake
+tags:
+    - cpp
+    - cmake
+categories:
+    - Начинающим
 header:
     overlay_image: assets\images\cmake-submodule\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

@@ -2,7 +2,9 @@
 title: "Тайм-менеджмент и кандидатская диссертация"
 tagline: "Управление временем работы над кандидатской диссертацией с помощью таблиц LibreOffice Calc"
 date: 2024-01-20 05:45:00 -0000
-tags: time-management, phd
+tags: 
+    - time-management
+    - phd
 header:
     overlay_image: assets\images\time-disser\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

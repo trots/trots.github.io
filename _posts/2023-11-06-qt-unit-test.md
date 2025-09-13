@@ -3,7 +3,14 @@
 title: "Как создать юнит-тест QtTest в среде разработки QtCreator"
 tagline: "В рамках статьи рассмотрим как создавать юнит-тесты с помощью библиотеки QtTest в QtCreator"
 date: 2023-11-06 12:44:54 -0000
-tags: unit-testing, qt, qt-creator, qttest
+tags: 
+    - unit-test
+    - qt
+    - qt-creator
+    - qttest
+categories:
+    - Начинающим
+    - Qt
 header:
     overlay_image: assets\images\qt-unit-test\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

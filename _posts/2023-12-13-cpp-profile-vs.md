@@ -3,10 +3,15 @@
 title: "Профилирование C++ кода в Visual Studio без инструментирования"
 tagline: "Разбираемся, как решать проблемы производительности программы с помощью профилировщика Visual Studio без инструментирования"
 date: 2023-12-13 14:08:43 -0000
-tags: optimization, cpp, visual-studio, profiling
+tags:
+  - performance
+  - cpp
+  - visual-studio
+  - profiling
+  - troubleshooting
 header:
-    overlay_image: /assets/images/cpp-profile-vs/f3873461-27d2-4e11-adf4-d439eaba8d2c.png
-    overlay_filter: rgba(0, 0, 0, 0.8)
+  overlay_image: /assets/images/cpp-profile-vs/f3873461-27d2-4e11-adf4-d439eaba8d2c.png
+  overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
 

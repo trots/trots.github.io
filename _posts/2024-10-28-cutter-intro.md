@@ -3,7 +3,13 @@
 title: "Как исследовать exe-файлы с Cutter. Практика обратной разработки"
 tagline: "Простейший пример исследования и патчинга исполняемого файла с помощью Cutter"
 date: 2024-10-28 05:43:19 -0000
-tags: cpp, assembly, reverse-engineering, cutter
+tags: 
+    - cpp
+    - assembly
+    - reverse-engineering
+    - cutter
+categories:
+    - Безопасность
 header:
     overlay_image: assets\images\cutter-intro\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

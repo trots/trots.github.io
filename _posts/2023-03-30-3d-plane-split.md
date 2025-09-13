@@ -3,7 +3,13 @@
 title: "Как разбить полигональную сетку плоскостью"
 tagline: "В статье рассмотрен один из подходов к разбиению триангуляционной сетки плоскостью"
 date: 2023-03-30 10:20:35 -0000
-tags: algorithms, 3d, 3d-model, splitting, polygon, geometry, triangulation
+tags: 
+    - algorithms
+    - 3d
+    - polygon
+    - triangulation
+categories:
+    - САПР
 header:
     overlay_image: assets\images\3d-plane-split\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)

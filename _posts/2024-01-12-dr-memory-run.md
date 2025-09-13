@@ -3,7 +3,11 @@
 title: "Как запустить анализатор утечек памяти DrMemory из QtCreator"
 tagline: "Учимся запускать сторонние приложения из QtCreator на примере DrMemory"
 date: 2024-01-12 08:09:56 -0000
-tags: cpp, memory-leak, qt-creator, drmemory
+tags: 
+    - cpp
+    - memory-leak
+    - qt-creator
+    - troubleshooting
 header:
     overlay_image: assets\images\dr-memory-run\teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)
