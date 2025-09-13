@@ -64,8 +64,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Александр Троценко"
-  avatar : "/assets/images/bio-photo.jpg"
+  # name   : "Александр Троценко"
+  # avatar : "/assets/images/bio-photo.jpg"
   bio    : "Признание - первый шаг на пути от \"так себе\" вчера к \"немного лучше\" сегодня."
   links:
     - label: "Telegram"

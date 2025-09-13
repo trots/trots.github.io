@@ -5,5 +5,3 @@ main:
     url: /categories/
   - title: "Теги"
     url: /tags/
-  - title: "Обо мне"
-    url: /about/
