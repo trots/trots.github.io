@@ -166,4 +166,8 @@ git branch -d new_featureя
 
 ---
 
-*Читайте больше в моем Телеграм* *канале*: [***Так себе программист***](https://t.me/mediocre_developer)
+- <i class="fab fa-telegram" aria-hidden="true"></i> [Обсудить в Телеграм](https://t.me/mediocre_developer/189){:target="_blank"}
+- <i class="fab fa-youtube" aria-hidden="true"></i> [Обсудить в YouTube](https://youtu.be/WJtAhmc6gA4?si=aTFQsmvXCvrFvI_x){:target="_blank"}
+- <i class="fab fa-vk" aria-hidden="true"></i>[Обсудить в VK](https://vkvideo.ru/video-228420545_456239017){:target="_blank"}
+
+---

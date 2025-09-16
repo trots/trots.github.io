@@ -169,4 +169,8 @@ add_subdirectory(app)
 
 ---
 
-*Читайте больше о разработке в моем Телеграм:* [*t.me/mediocre\_developer*](https://t.me/mediocre_developer)
+- <i class="fab fa-telegram" aria-hidden="true"></i> [Обсудить в Телеграм](https://t.me/mediocre_developer/275){:target="_blank"}
+- <i class="fab fa-youtube" aria-hidden="true"></i> [Обсудить в YouTube](https://youtu.be/icdzH7QqQW0){:target="_blank"}
+- <i class="fab fa-vk" aria-hidden="true"></i>[Обсудить в VK](https://vk.com/video-228420545_456239024){:target="_blank"}
+
+---

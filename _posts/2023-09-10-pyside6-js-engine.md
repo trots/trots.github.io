@@ -91,3 +91,9 @@ Finish
 ```
 
 Файлы с исходным кодом можно найти [на GitHub Gists](https://gist.github.com/trots/b8985b61242fcc3426883054c28e752d).
+
+---
+
+<i class="fab fa-telegram" aria-hidden="true"></i> [Обсудить в Телеграм](https://t.me/mediocre_developer/22){:target="_blank"}
+
+---

@@ -142,3 +142,9 @@ FreecadImportMod.addExtension()
 ![](/assets/images/freecad-import-extension/fe848840-89a9-4b19-b815-0cf986370380.png)
 
 Исходный код рассмотренного примера [доступен на GitHub](https://github.com/trots/FreecadImportMod).
+
+---
+
+<i class="fab fa-telegram" aria-hidden="true"></i> [Обсудить в Телеграм](https://t.me/mediocre_developer/21){:target="_blank"}
+
+---

@@ -56,4 +56,6 @@ header:
 
 ---
 
-Телеграм: [**Так себе программист**](https://t.me/mediocre_developer)
+<i class="fab fa-telegram" aria-hidden="true"></i> [Обсудить в Телеграм](https://t.me/mediocre_developer/51){:target="_blank"}
+
+---

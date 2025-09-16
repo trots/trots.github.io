@@ -91,4 +91,6 @@ Cutter позволяет [дизассемблировать](https://ru.wikipe
 
 ---
 
-*Читайте больше в моем Телеграм* *канале*: [***Так себе программист***](https://t.me/mediocre_developer)
+<i class="fab fa-telegram" aria-hidden="true"></i> [Обсудить в Телеграм](https://t.me/mediocre_developer/175){:target="_blank"}
+
+---
