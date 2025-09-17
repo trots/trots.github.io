@@ -9,7 +9,7 @@ tags:
     - qt-creator
     - troubleshooting
 header:
-    overlay_image: assets\images\dr-memory-run\teaser.png
+    overlay_image: /assets/images/dr-memory-run/teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---

@@ -9,7 +9,7 @@ tags:
   - cpp
   - vscode
 header:
-  overlay_image: assets\images\cpp-doc-as-code\teaser.jpeg
+  overlay_image: /assets/images/cpp-doc-as-code/teaser.jpeg
   overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---

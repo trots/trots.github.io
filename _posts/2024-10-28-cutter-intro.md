@@ -11,7 +11,7 @@ tags:
 categories:
     - Безопасность
 header:
-    overlay_image: assets\images\cutter-intro\teaser.png
+    overlay_image: /assets/images/cutter-intro/teaser.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
