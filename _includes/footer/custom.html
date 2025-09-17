@@ -1,0 +1,87 @@
+<footer class="site-footer">
+  <div class="author-footer">
+    <div class="author-image">
+      <img src="/assets/images/bio-photo.jpg" 
+           alt="Александр Троценко" 
+           class="author-avatar">
+    </div>
+    
+    <div class="author-info">
+      <h3 class="author-name">Александр Троценко</h3>
+      <p class="author-title">Автор блога</p>
+      
+      <p class="author-bio">
+        Программист, преподаватель, кандидат технических наук. 10 лет в разработке desktop на C/С++
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+.author-footer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 30px 0;
+  border-top: 1px solid #eaeaea;
+  margin-top: 50px;
+}
+
+.author-image {
+  flex-shrink: 0;
+}
+
+.author-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f8f8f8;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.author-info {
+  flex-grow: 1;
+}
+
+.author-name {
+  margin: 0 0 5px 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.author-title {
+  margin: 0 0 12px 0;
+  color: #7f8c8d;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+.author-bio {
+  margin: 0 0 15px 0;
+  color: #34495e;
+  font-size: 0.95em;
+  line-height: 1.5;
+  max-width: 500px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .author-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 25px 0;
+  }
+  
+  .author-avatar {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .author-bio {
+    max-width: none;
+  }
+}
+</style>

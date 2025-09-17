@@ -1,0 +1,7 @@
+main:
+  - title: "Блог"
+    url: /posts/
+  - title: "Категории"
+    url: /categories/
+  - title: "Теги"
+    url: /tags/
