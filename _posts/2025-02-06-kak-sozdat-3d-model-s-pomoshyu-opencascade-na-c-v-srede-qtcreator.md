@@ -14,7 +14,7 @@ categories:
     - Начинающим
     - САПР
 header:
-    overlay_image: /assets/images/occ-3d/teaser.png
+    overlay_image: /assets/images/occ-3d/title_image.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---

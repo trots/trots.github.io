@@ -6,7 +6,7 @@ tags:
     - time-management
     - phd
 header:
-    overlay_image: /assets/images/time-disser/teaser.png
+    overlay_image: /assets/images/time-disser/title_image.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---

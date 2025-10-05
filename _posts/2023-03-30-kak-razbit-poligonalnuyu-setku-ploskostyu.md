@@ -11,7 +11,7 @@ tags:
 categories:
     - САПР
 header:
-    overlay_image: /assets/images/3d-plane-split/teaser.png
+    overlay_image: /assets/images/3d-plane-split/title_image.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---

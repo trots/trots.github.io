@@ -12,7 +12,7 @@ tags:
 categories:
     - Начинающим
 header:
-    overlay_image: /assets/images/github-pull-request/teaser.png
+    overlay_image: /assets/images/github-pull-request/title_image.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---

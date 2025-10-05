@@ -11,7 +11,7 @@ tags:
 categories:
     - Qt
 header:
-    overlay_image: /assets/images/pyside6-js-engine/teaser.png
+    overlay_image: /assets/images/pyside6-js-engine/title_image.png
     overlay_filter: rgba(0, 0, 0, 0.8)
 
 ---
