@@ -17,7 +17,7 @@ author_profile: true
       <div class="post-item">
         <div class="post-item__content">
           <h2 class="post-item__title">
-            <a href="/categories/{{ cat_page | slugify }}/">{{ cat_name }}</a>
+            <a href="/categories/{{ cat_page | slugify }}">{{ cat_name }}</a>
           </h2>
           
           {% if category.description %}
