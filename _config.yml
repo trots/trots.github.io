@@ -66,7 +66,7 @@ plugins:
 author:
   # name   : "Александр Троценко"
   # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Признание - первый шаг на пути от \"так себе\" вчера к \"немного лучше\" сегодня."
+  bio    : "Идем по пути от \"так себе\" вчера к \"немного лучше\" сегодня"
   links:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
