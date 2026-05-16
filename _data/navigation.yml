@@ -1,6 +1,6 @@
 main:
-  - title: "Блог"
-    url: /posts/
+  - title: "Главная"
+    url: /
   - title: "Категории"
     url: /categories/
   - title: "Теги"

@@ -2,9 +2,14 @@
 layout: archive
 ---
 
-{{ content }}
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Недавние статьи" }}</h3>
+<style>
+  #page-title { display: none !important; margin: 0 !important; padding: 0 !important; }
+  .posts-list { margin-top: 0 !important; }
+</style>
+
+{{ content }}
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -12,48 +17,34 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
+<div class="posts-list">
   {% for post in posts %}
-    <div class="post-item" style="display: flex; align-items: flex-start; margin-bottom: 20px; gap: 15px;">
-      
-      {% if post.header.overlay_image %}
-        <div class="post-thumbnail" style="flex-shrink: 0; width: 150px; overflow: hidden; border-radius: 4px; display: flex; align-items: center;">
-          <img src="{{ post.header.overlay_image | relative_url }}" 
-               alt="{{ post.title }}" 
-               style="width: 100%; height: 100%; object-fit: cover;">
+    {% assign thumb = post.header.teaser | default: post.header.overlay_image %}
+    
+    <article class="post-item">
+      {% if thumb %}
+        <div class="post-item__thumb">
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ thumb | relative_url }}" alt="{{ post.title | escape }}">
+          </a>
         </div>
       {% endif %}
       
-      <div class="post-content" style="flex-grow: 1;">
-        <h3 class="archive__item-title" style="margin: 0 0 8px 0;">
+      <div class="post-item__content">
+        <h3 class="post-item__title">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
         
         {% if post.tagline %}
-          <p class="archive__item-excerpt" style="margin: 0;">
+          <p class="post-item__tagline">
             {{ post.tagline | markdownify | strip_html | truncate: 160 }}
           </p>
         {% endif %}
         
         {% include page__meta.html %}
       </div>
-    </div>
+    </article>
   {% endfor %}
 </div>
 
 {% include paginator.html %}
-
-<style>
-@media (max-width: 768px) {
-  .post-item {
-    flex-direction: column;
-    align-items: flex-start !important;
-  }
-  .post-thumbnail {
-    width: 100% !important;
-    height: 150px !important;
-    margin-bottom: 10px;
-  }
-}
-</style>

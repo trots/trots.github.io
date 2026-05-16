@@ -1,0 +1,42 @@
+---
+layout: archive
+title: "{{ page.category }}"
+permalink: "/categories/{{ page.category | slugify }}/"
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+{{ content }}
+
+{% assign posts = site.posts | where: "categories", page.category %}
+
+{% if posts.size == 0 %}
+  <p>В этой категории пока нет статей.</p>
+{% else %}
+  <div class="posts-list">
+    {% for post in posts %}
+      {% assign thumb = post.header.teaser | default: post.header.overlay_image %}
+      <article class="post-item">
+        {% if thumb %}
+          <a href="{{ post.url | relative_url }}" class="post-item__thumb">
+            <img src="{{ thumb | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          </a>
+        {% endif %}
+        
+        <div class="post-item__content">
+          <h2 class="post-item__title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+
+          {% if post.tagline %}
+            <p class="post-item__tagline">
+              {{ post.tagline | markdownify | strip_html | truncate: 160 }}
+            </p>
+          {% endif %}
+
+          {% include page__meta.html %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}
