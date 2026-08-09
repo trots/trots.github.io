@@ -19,8 +19,6 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Блог о разработке ПО на Qt/C++ и PySide, о САПР и разработке в целом.
   Личный опыт для начинающих и практикующих программистов.
-twitter_username: username
-github_username: username
 minimal_mistakes_skin: default
 locale: "ru-RU"
 lang: "ru"
