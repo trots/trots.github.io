@@ -135,11 +135,11 @@ FreecadImportMod.addExtension()
 
 Запускаем FreeCad, создаем новый документ и переходим в меню "Файл -&gt; Импортировать...", где выбираем файл нашей модели `model.box`.
 
-![](/assets/images/freecad-import-extension/100353dc-b49a-4a8b-9765-240995c0bfc4.png)
+![Диалог импорта файла в FreeCAD с выбранным файлом model.box формата .box](/assets/images/freecad-import-extension/100353dc-b49a-4a8b-9765-240995c0bfc4.png)
 
 По нажатию кнопки "Открыть" выполняется сценарий функции `insert()` расширения `FreecadImportMode` и в результате строится модель параллелепипеда с заданными в файле параметрами.
 
-![](/assets/images/freecad-import-extension/fe848840-89a9-4b19-b815-0cf986370380.png)
+![Модель параллелепипеда, построенная в FreeCAD после импорта файла model.box](/assets/images/freecad-import-extension/fe848840-89a9-4b19-b815-0cf986370380.png)
 
 Исходный код рассмотренного примера [доступен на GitHub](https://github.com/trots/FreecadImportMod).
 

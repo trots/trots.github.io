@@ -151,15 +151,15 @@ add_subdirectory(app)
 
 Например, CMake с компилятором MSVC создает такую структуру папок:
 
-![](/assets/images/cmake-submodule/5d0a38bf-6ac8-4eab-bddc-cd8eac11fd4a.png)
+![Сборочная директория CMake с отдельными подпапками app и lib для каждого подпроекта](/assets/images/cmake-submodule/5d0a38bf-6ac8-4eab-bddc-cd8eac11fd4a.png)
 
 Внутри папки `lib` размещается файл с собранной статической библиотекой `MathUtils.lib`:
 
-![](/assets/images/cmake-submodule/38bef119-20de-427a-890e-11c8316eef13.png)
+![Собранная статическая библиотека MathUtils.lib внутри сборочной папки lib](/assets/images/cmake-submodule/38bef119-20de-427a-890e-11c8316eef13.png)
 
 Внутри папки app размещается файл с финальным исполняемым файлом `App.exe`, внутрь которого уже вкомпилирована упомянутая библиотека:
 
-![](/assets/images/cmake-submodule/856495c1-84e6-4bb7-88e1-de5ac6d4785b.png)
+![Собранный исполняемый файл App.exe внутри сборочной папки app с вкомпилированной библиотекой](/assets/images/cmake-submodule/856495c1-84e6-4bb7-88e1-de5ac6d4785b.png)
 
 # Вывод
 

@@ -21,7 +21,7 @@ header:
 
 [PlantUML](https://plantuml.com/ru/) - это инструмент, позволяющий создавать визуальные диаграммы с помощью простого текстового описания. В основном он используется для генерации UML-диаграмм, но поддерживает и некоторые другие.
 
-![](/assets/images/doxygen-plantuml/plantuml_example.png)
+![Пример текстового описания диаграммы состояний PlantUML и результат ее рендеринга в виде диаграммы](/assets/images/doxygen-plantuml/plantuml_example.png)
 
 Кстати, о том, что такое UML и зачем он нужен [читайте в одной из прошлых статей](https://mediocre-developer.ru/zachem-nuzhny-uml-diagrammy).
 
@@ -68,7 +68,7 @@ stop
 
 Получится такая UML-диаграмма деятельности, встроенная в сгенерированную документацию:
 
-![](/assets/images/doxygen-plantuml/doxygen_plantuml_md_result.png)
+![UML-диаграмма деятельности, сгенерированная Doxygen из блока PlantUML в файле Getting_Started.md](/assets/images/doxygen-plantuml/doxygen_plantuml_md_result.png)
 
 # Добавление диаграммы в документацию класса
 
@@ -99,7 +99,7 @@ public:
 
 И тоже получаем UML-диаграмму прямо в классе:
 
-![](/assets/images/doxygen-plantuml/doxygen_plantuml_h_result.png)
+![UML-диаграмма классов Lib и App, встроенная в документацию класса Lib через теги startuml/enduml](/assets/images/doxygen-plantuml/doxygen_plantuml_h_result.png)
 
 
 # Преимущества и недостатки
@@ -122,11 +122,11 @@ public:
 
 Писать диаграммы без визуализации "на лету" не удобно. Для комфортной работы в Visual Studio Code можно использовать [специальное расширение](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml). Оно позволяет видеть превью диаграммы сразу же при ее написании.
 
-![](/assets/images/doxygen-plantuml/vscode_plugin.png)
+![Превью диаграммы PlantUML в реальном времени в редакторе Visual Studio Code с установленным расширением](/assets/images/doxygen-plantuml/vscode_plugin.png)
 
 Чтобы расширение заработало, в настройках надо указать адрес сервера рендеринга PlantUML `https://www.plantuml.com/plantuml`.
 
-![](/assets/images/doxygen-plantuml/vscode_plugin_settings.png)
+![Настройка адреса сервера рендеринга PlantUML в параметрах расширения Visual Studio Code](/assets/images/doxygen-plantuml/vscode_plugin_settings.png)
 
 > **Предупреждение**
 >

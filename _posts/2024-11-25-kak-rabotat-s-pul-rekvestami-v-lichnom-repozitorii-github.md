@@ -34,23 +34,23 @@ header:
 
 Перед тем как переходить к пул-реквестам, нам необходимо создать репозиторий с начальным исходным кодом. Пусть это будет проект на C++ и CMake. Я, например, создал самый обычный “Hello World” в среде разработки QtCreator.
 
-![](/assets/images/github-pull-request/f51bfbbc-6e46-4cd8-94e3-40aac6c1bab9.jpeg)
+![Проект Hello World на C++ и CMake в среде разработки QtCreator](/assets/images/github-pull-request/f51bfbbc-6e46-4cd8-94e3-40aac6c1bab9.jpeg)
 
 Теперь загрузим проект на GitHub. Для этого создадим новый личный репозиторий на GitHub и закоммитим туда наш код.
 
 Идем на [GitHub](https://github.com/) и создаем репозиторий.
 
-![](/assets/images/github-pull-request/bf037fa8-2fdd-427a-8b07-9fc1d506a14e.png)
+![Создание нового репозитория через меню "+" на GitHub](/assets/images/github-pull-request/bf037fa8-2fdd-427a-8b07-9fc1d506a14e.png)
 
 На странице создания репозитория вводим его название (у меня это “pr\_example”) и жмем “Create repository”.
 
-![](/assets/images/github-pull-request/e11e1f4c-de88-406e-8b35-6aa61d42b04a.png)
+![Страница создания репозитория pr_example на GitHub с кнопкой Create repository](/assets/images/github-pull-request/e11e1f4c-de88-406e-8b35-6aa61d42b04a.png)
 
 Пустой репозиторий создан. Теперь, используя подсказки по командам git, загружаем свой проект на GitHub. Эти команды должны быть выполнены в терминале на вашем компьютере в папке проекта. Для удобства я использовал терминал прямо в среде QtCreator.
 
-![](/assets/images/github-pull-request/e012a0b0-3636-4ef1-9612-26f5133f4a56.png)
+![Подсказки GitHub по командам git для загрузки существующего проекта в новый репозиторий](/assets/images/github-pull-request/e012a0b0-3636-4ef1-9612-26f5133f4a56.png)
 
-![](/assets/images/github-pull-request/8b3857bc-540c-4fbe-9407-517be3fa78d6.png)
+![Выполнение команды git init в терминале QtCreator для инициализации локального репозитория](/assets/images/github-pull-request/8b3857bc-540c-4fbe-9407-517be3fa78d6.png)
 
 Рассмотрим команды по порядку. Инициализируем локальный репозиторий в папке проекта:
 
@@ -79,11 +79,11 @@ git remote add origin https://github.com/trots/pr_example.git # Здесь ис�
 git push -u origin main
 ```
 
-![](/assets/images/github-pull-request/28060b0e-7165-402c-99f7-e68f2ea4d62a.png)
+![Вывод терминала об успешном первом commit и push проекта в удаленный репозиторий GitHub](/assets/images/github-pull-request/28060b0e-7165-402c-99f7-e68f2ea4d62a.png)
 
 Теперь, обновив страницу вашего репозитория на GitHub, вы увидите загруженные файлы. На этом подготовка репозитория завершена, переходим к работе с пул-реквестами.
 
-![](/assets/images/github-pull-request/b981f64b-9a13-43c9-8d6e-f2bd998966d7.png)
+![Страница репозитория pr_example на GitHub с загруженными файлами проекта](/assets/images/github-pull-request/b981f64b-9a13-43c9-8d6e-f2bd998966d7.png)
 
 # Изменение кода в отдельной ветке
 
@@ -102,11 +102,11 @@ git switch -c new_feature
 
 С помощью команды `git branch` можно увидеть, что теперь у нас в проекте две ветки.
 
-![](/assets/images/github-pull-request/51e5d341-f281-4d62-89b4-2937ff6e60eb.png)
+![Создание и переключение на новую ветку new_feature командой git switch -c в терминале](/assets/images/github-pull-request/51e5d341-f281-4d62-89b4-2937ff6e60eb.png)
 
 Теперь внесем изменения в код main.cpp, добавив дополнительные восклицательные знаки к строке “Hello World!!!”. С помощью команды `git status` можем увидеть, что файл main.cpp перешел в статус измененных.
 
-![](/assets/images/github-pull-request/d79f88af-c64d-4ede-abd9-692f746be505.png)
+![Вывод команды git status с файлом main.cpp в статусе modified после изменения кода](/assets/images/github-pull-request/d79f88af-c64d-4ede-abd9-692f746be505.png)
 
 Закоммитим изменения, предварительно добавив файл в индекс коммита.
 
@@ -129,19 +129,19 @@ git push --set-upstream origin new_feature
 
 Как только новая ветка загружен на GitHub, ресурс нам сразу же предлагает создать пул-реквест. Воспользуемся предложением.
 
-![](/assets/images/github-pull-request/e3d53920-8bff-4898-aa56-4a5539ab954b.png)
+![Предложение GitHub создать пул-реквест кнопкой Compare & pull request для ветки new_feature](/assets/images/github-pull-request/e3d53920-8bff-4898-aa56-4a5539ab954b.png)
 
 Создание пул-реквеста требует указания только его названия, которое заполняется автоматически из названия коммита. Остальные параметры можно не заполнять. Хотя я рекомендую проконтролировать, что текущая (compare) и целевая (base) ветки соответствуют ожиданиям, а также опционально можно коротко описать вносимые правки. Для личного репозитория этого достаточно.
 
-![](/assets/images/github-pull-request/cff7708f-7adb-4719-bb3c-e73262b6b279.png)
+![Форма создания пул-реквеста на GitHub с проверкой веток base и compare и кнопкой Create pull request](/assets/images/github-pull-request/cff7708f-7adb-4719-bb3c-e73262b6b279.png)
 
 Пул-реквест создан и находится в состоянии Open. На этом этапе обычно выполняются контролирующие проверки вносимых правок: как автоматические, так и со стороны специалистов. В нашем же случае мы сразу переходим к слиянию пул-реквеста и нажимаем “Merge pull request”.
 
-![](/assets/images/github-pull-request/21022e9a-8856-4654-aa4e-2a626e7f7fe2.png)
+![Страница открытого пул-реквеста на GitHub с кнопкой Merge pull request](/assets/images/github-pull-request/21022e9a-8856-4654-aa4e-2a626e7f7fe2.png)
 
 Готово, пул-реквест завершен, а наша ветка new\_feature слита в ветку main. Теперь ветка new\_feature может быть безопасно удалена. Она больше не нужна, ее жизненный цикл окончен.
 
-![](/assets/images/github-pull-request/8ab91970-f920-4c14-a127-c048197b8aed.png)
+![Страница завершенного пул-реквеста со статусом Merged и кнопкой Delete branch](/assets/images/github-pull-request/8ab91970-f920-4c14-a127-c048197b8aed.png)
 
 Возвращаемся обратно в терминал и переключаемся на ветку main. Можно заметить, что на ветке main все еще старый код. Чтобы обновить ветку, нам нужно синхронизировать ее с веткой на GitHub командой pull:
 

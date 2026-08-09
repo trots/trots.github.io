@@ -35,7 +35,7 @@ header:
 
 Для начала создадим новый проект C++ в QtCreator на базе [CMake](https://cmake.org/).
 
-![](/assets/images/occ-3d/4908a447-685b-4cad-949f-780a77a1ef2c.png)
+![Диалог создания нового проекта Plain C++ Application в QtCreator](/assets/images/occ-3d/4908a447-685b-4cad-949f-780a77a1ef2c.png)
 
 ## [main.cpp](https://github.com/quirxi/occBasicSamples)
 
@@ -83,7 +83,7 @@ anAxis.SetLocation(gp_Pnt(0.0, 0.0, 0.0));
 TopoDS_Shape aTorus = BRepPrimAPI_MakeTorus(anAxis, 3.0, 1.0).Shape();
 ```
 
-![](/assets/images/occ-3d/85920705-9376-4322-8446-62add89ff343.png)
+![Модель тора с обозначением радиуса окружности тора 3.0 и радиуса сечения 1.0](/assets/images/occ-3d/85920705-9376-4322-8446-62add89ff343.png)
 
 Теперь создадим триангуляционную сетку [BRepMesh\_IncrementalMesh](https://dev.opencascade.org/doc/refman/html/class_b_rep_mesh___incremental_mesh.html) модели тора. Укажем [линейную точность триангуляции](https://dev.opencascade.org/doc/overview/html/occt_user_guides__mesh.html) равной `0.1`. Чем ниже значение, тем более мелкая и точная сетка будет сгенерирована. Следующий параметр Standard\_True указывает, что точность будет рассчитываться не в абсолютных значениях, а в относительных - относительно размера модели. Она сгенерируется и сохранится внутри объекта `aTorus`.
 
@@ -139,7 +139,7 @@ find_package(OpenCASCADE COMPONENTS DataExchange REQUIRED)
 
 Если CMake не сможет обнаружить OpenCASCADE и покажет ошибку как на скриншоте ниже, то нужно указать путь к cmake-файлам OpenCASCADE через переменную [CMAKE\_PREFIX\_PATH](https://cmake.org/cmake/help/v3.0/variable/CMAKE_PREFIX_PATH.html). Подробнее я это разбирал в отдельном видео: [YouTube](https://youtu.be/6VS-8sgfoZU), [ВКонтакте](https://vkvideo.ru/video-228420545_456239019?list=ln-EZZCMDEs5FZCmuIWZX).
 
-![](/assets/images/occ-3d/37fa2d57-5457-42a4-8792-ed802ba2ee37.png)
+![Ошибка CMake "Could not find a package configuration file provided by OpenCASCADE"](/assets/images/occ-3d/37fa2d57-5457-42a4-8792-ed802ba2ee37.png)
 
 Второй момент - линковка библиотек OpenCASCADE. Сначала через `target_link_directories()` мы указываем путь, где CMake должен искать библиотеки для проекта. А потом перечисляем нужные библиотеки в `target_link_libraries()`.
 
@@ -157,7 +157,7 @@ target_link_libraries(occ_example PRIVATE
 
 OpenCASCADE содержит множество библиотек. Чтобы понять, какие именно библиотеки нам нужны, мы можем обращаться к документации используемых классов. В верхней части страницы можно увидеть, к какому компоненту относится класс, и в какую библиотеку он включен.
 
-![](/assets/images/occ-3d/e28e5cc4-47d7-4c8a-b7d4-3329b83cfc12.png)
+![Документация класса gp_Ax2 OpenCASCADE с указанием компонента и библиотеки TKMath](/assets/images/occ-3d/e28e5cc4-47d7-4c8a-b7d4-3329b83cfc12.png)
 
 # Визуализация
 
@@ -167,13 +167,13 @@ OpenCASCADE содержит множество библиотек. Чтобы �
 
 Для открытия файла STEP во FreeCAD достаточно использовать меню “Файл → Открыть…”. Модель загрузится из файла на основной экран.
 
-![](/assets/images/occ-3d/e1a4d989-e60d-4a73-9033-160d4953d180.jpeg)
+![Модель тора, загруженная из файла aTorus.stp в FreeCAD](/assets/images/occ-3d/e1a4d989-e60d-4a73-9033-160d4953d180.jpeg)
 
 ## Blender
 
 Для открытия файла STL в Blender нужно воспользоваться процедурой импорта “File → Import → STL (.stl)“. Модель импортируются в текущую сцену.
 
-![](/assets/images/occ-3d/9f2c656a-5488-485b-9af6-38556830d707.jpeg)
+![Полигональная модель тора aTorus, импортированная из файла aTorus.stl в Blender](/assets/images/occ-3d/9f2c656a-5488-485b-9af6-38556830d707.jpeg)
 
 ---
 

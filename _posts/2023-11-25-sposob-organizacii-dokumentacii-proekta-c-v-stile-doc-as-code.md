@@ -35,7 +35,7 @@ header:
 
 Современные среды разработки как правило поддерживают работу с Markdown из коробки. Для работы с документацией даже не обязательно выходить из любимой IDE. Например, Visual Code поддерживает реал-тайм предпросмотр для Markdown-файлов.
 
-![](/assets/images/cpp-doc-as-code/09ff89e1-dcef-4e8a-b7d8-f558a14ae492.png)
+![Реал-тайм предпросмотр Markdown-файла Main.md в редакторе Visual Studio Code](/assets/images/cpp-doc-as-code/09ff89e1-dcef-4e8a-b7d8-f558a14ae492.png)
 
 Используя [возможности Doxygen по встраиванию Markdown-файлов](https://www.doxygen.nl/manual/markdown.html), мы создадим единую HTML-документацию с технической частью и описанием сущностей.
 
@@ -129,7 +129,7 @@ doxygen Doxygen
 
 Полученная документация класса Lib будет выглядеть так:
 
-![](/assets/images/cpp-doc-as-code/daf8007e-c6bf-4908-99b6-28a2b7d129f6.png)
+![HTML-документация класса Lib, сгенерированная Doxygen из комментариев в исходном коде](/assets/images/cpp-doc-as-code/daf8007e-c6bf-4908-99b6-28a2b7d129f6.png)
 
 # Особенности оформления Markdown
 
@@ -149,7 +149,7 @@ Welcome to Library documentation!
 
 Тогда главная страница HTML-документации будет выглядеть так:
 
-![](/assets/images/cpp-doc-as-code/1f9a4551-497a-426b-8b3c-25dfa3d4457b.png)
+![Главная страница HTML-документации, сгенерированная Doxygen из файла Main.md](/assets/images/cpp-doc-as-code/1f9a4551-497a-426b-8b3c-25dfa3d4457b.png)
 
 В файле Getting\_Started.md размещаем руководство по быстрому старту работы с нашей библиотекой:
 
@@ -159,7 +159,7 @@ Welcome to Library documentation!
 Just build the Lib!
 ```
 
-![](/assets/images/cpp-doc-as-code/9be83e11-db9e-4632-a434-682579edd190.png)
+![Страница Getting Started HTML-документации, сгенерированная Doxygen из файла Getting_Started.md](/assets/images/cpp-doc-as-code/9be83e11-db9e-4632-a434-682579edd190.png)
 
 # Вывод
 
