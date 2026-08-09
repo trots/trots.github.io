@@ -31,13 +31,13 @@ header:
 - <i class="fab fa-youtube" aria-hidden="true"></i> [YouTube](https://youtu.be/KG2E0L1hl8Q) 
 - <i class="fab fa-vk" aria-hidden="true"></i>[VKVideo](https://vk.com/video-228420545_456239020)
 
-# Исходный код
+## Исходный код
 
 Для начала создадим новый проект C++ в QtCreator на базе [CMake](https://cmake.org/).
 
 ![Диалог создания нового проекта Plain C++ Application в QtCreator](/assets/images/occ-3d/4908a447-685b-4cad-949f-780a77a1ef2c.png)
 
-## [main.cpp](https://github.com/quirxi/occBasicSamples)
+### [main.cpp](https://github.com/quirxi/occBasicSamples)
 
 Исходный код построения тора возьмем из коллекции примеров [occBasicSamples](https://github.com/quirxi/occBasicSamples)**.** Достаточно скопировать код ниже и вставить его в `main.cpp`, заменив шаблонный код, сгенерированный QtCreator.
 
@@ -101,7 +101,7 @@ aStepWriter.Transfer(aTorus,STEPControl_AsIs);
 aStepWriter.Write("aTorus.stp");
 ```
 
-## CMakeLists.txt
+### CMakeLists.txt
 
 Сборку программы выполним с помощью [CMake](https://cmake.org/). Открываем файл проекта `CMakeLists.txt` и заменяем его содержимое на код ниже.
 
@@ -159,17 +159,17 @@ OpenCASCADE содержит множество библиотек. Чтобы �
 
 ![Документация класса gp_Ax2 OpenCASCADE с указанием компонента и библиотеки TKMath](/assets/images/occ-3d/e28e5cc4-47d7-4c8a-b7d4-3329b83cfc12.png)
 
-# Визуализация
+## Визуализация
 
 При запуске программы будет создано 2 файла: `aTorus.stp` и `aTorus.stl`. Для просмотра содержимого файлов воспользуемся соответствующими программами.
 
-## FreeCAD
+### FreeCAD
 
 Для открытия файла STEP во FreeCAD достаточно использовать меню “Файл → Открыть…”. Модель загрузится из файла на основной экран.
 
 ![Модель тора, загруженная из файла aTorus.stp в FreeCAD](/assets/images/occ-3d/e1a4d989-e60d-4a73-9033-160d4953d180.jpeg)
 
-## Blender
+### Blender
 
 Для открытия файла STL в Blender нужно воспользоваться процедурой импорта “File → Import → STL (.stl)“. Модель импортируются в текущую сцену.
 

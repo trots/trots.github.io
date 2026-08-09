@@ -26,13 +26,13 @@ header:
 - <i class="fab fa-youtube" aria-hidden="true"></i> [YouTube](https://youtu.be/UzNY4rsSFEc) 
 - <i class="fab fa-vk" aria-hidden="true"></i>[VKVideo](https://vk.com/video-228420545_456239021)
 
-# Макет приложения
+## Макет приложения
 
 На макете ниже показано как будет выглядеть наше приложение. С левой стороны разместим таблицу со списком людей, определяемых именем, фамилией и возрастом. А справа - панель добавления данных в таблицу. Тут будут те же самые поля, что и в таблице, а также кнопка для добавления.
 
 ![Макет приложения с таблицей людей слева и панелью полей ввода имени, фамилии, возраста и кнопкой Add справа](/assets/images/qt-window/46ce3820-dc40-4657-9cc0-c95be88a25e4.png)
 
-# Исходный код
+## Исходный код
 
 Для начала создадим новый проект Qt Widgets в QtCreator на базе [**CMake**](https://cmake.org/).
 
@@ -51,7 +51,7 @@ header:
 * Класс окна MainWindow с заголовочным файлом `MainWindow.h` и реализацией `MainWindow.cpp`.
     
 
-## MainWindow.h
+### MainWindow.h
 
 ```cpp
 #pragma once
@@ -96,7 +96,7 @@ private:
   QSpinBox* ageInput;
 ```
 
-## MainWindow.cpp
+### MainWindow.cpp
 
 Весь исходный код реализации класса `MainWindow` приведен ниже. Создание всего интерфейса окна происходит в конструкторе. Рассмотрим некоторые его моменты подробнее.
 
@@ -163,7 +163,7 @@ void MainWindow::onAddClicked()
 }
 ```
 
-### Конструктор
+#### Конструктор
 
 В первую очередь мы создаем главный [горизонтальный лэйаут](https://doc.qt.io/qt-6/layout.html#horizontal-vertical-grid-and-form-layouts) `mainLayout` ([QHBoxLayout](https://doc.qt.io/qt-6/qhboxlayout.html)) нашего окна.
 
@@ -237,7 +237,7 @@ verticalLayout->addWidget(addButton);
 verticalLayout->addStretch();
 ```
 
-### Обработчик нажатия кнопки
+#### Обработчик нажатия кнопки
 
 Слот `onAddClicked()`, реализующий обработку нажатия кнопки, включает три условных этапа. Сначала мы получаем текущие данные из полей ввода.
 
@@ -262,7 +262,7 @@ table->setItem(rowCount, 1, new QTableWidgetItem(secondName));
 table->setItem(rowCount, 2, new QTableWidgetItem(QString::number(age)));
 ```
 
-## main.cpp
+### main.cpp
 
 Главный файл программы остается практически без изменений. Добавляем только свое название окна вызовом `setWindowTitle(“People”);` и изменяем изначальный размер окна - делаем его немного больше вызовом `resize(800, 600);`.
 
@@ -281,7 +281,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-## CMakeLists.txt
+### CMakeLists.txt
 
 Файл проекта `CMakeLists.txt` изменений не потребует и останется точно таким каким его создал мастер во время создания проекта. Например, его содержимое может выглядеть так:
 
@@ -316,7 +316,7 @@ add_executable(qt_example ${PROJECT_SOURCES})
 target_link_libraries(qt_example PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 ```
 
-# Результат
+## Результат
 
 После сборки и запуска проекта мы увидим наше окно.
 
