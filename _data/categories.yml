@@ -9,3 +9,7 @@
 - name: "Книжная полка"
   page: "books"
   description: "Идеи и мысли из интересных книг"
+
+- name: "Жизнь других"
+  page: "lives-of-others"
+  description: "Интересные решения из открытых проектов"
